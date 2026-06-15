@@ -115,13 +115,6 @@ YojnaBot/
 
 ---
 
-## 👥 Team — AttentionHeads
-
-- **Aarav Jain** — Adaptive Data pipeline, agent logic, frontend
-- **Shagun** — Data preparation, scheme database, testing
-
----
-
 ## 📊 Key Features
 
 - ✅ Conversational profile extraction (multi-turn, decides what to ask next)
