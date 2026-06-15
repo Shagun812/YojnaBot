@@ -1,4 +1,4 @@
-# 🇮🇳 YojnaBot — Multilingual Government Scheme Discovery Agent
+#  YojnaBot — Multilingual Government Scheme Discovery Agent
 
 > Built for **HackIndia AI Agents Hackathon 2026** | Adaptive Data Track
 
@@ -6,7 +6,7 @@ YojnaBot is an AI agent that helps rural Indian citizens discover government sch
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Millions of eligible Indians miss out on government schemes due to language barriers and lack of awareness. YojnaBot solves this by:
 - Conversationally collecting a user profile in their language
@@ -16,7 +16,7 @@ Millions of eligible Indians miss out on government schemes due to language barr
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User (Hindi/Tamil/Telugu)
@@ -36,7 +36,7 @@ User Correction → Adaptive Data re-adaptation → Dataset improves
 
 ---
 
-## 🔧 Adaptive Data Integration
+##  Adaptive Data Integration
 
 This project uses **[Adaptive Data](https://adaptionlabs.ai/adaptive-data)** as the dataset backbone:
 
@@ -52,7 +52,7 @@ This project uses **[Adaptive Data](https://adaptionlabs.ai/adaptive-data)** as 
 
 ---
 
-## 🌐 Languages Supported
+##  Languages Supported
 
 - हिंदी (Hindi)
 - தமிழ் (Tamil)  
@@ -60,10 +60,10 @@ This project uses **[Adaptive Data](https://adaptionlabs.ai/adaptive-data)** as 
 
 ---
 
-## 🚀 Setup & Run
+##  Setup & Run
 
 ```bash
-git clone https://github.com/AaravJain62677/YojnaBot
+git clone https://github.com/Shagun812/YojnaBot
 cd YojnaBot
 
 python -m venv venv
@@ -83,7 +83,7 @@ streamlit run app.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 YojnaBot/
@@ -103,7 +103,7 @@ YojnaBot/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Tool |
 |---|---|
@@ -115,12 +115,12 @@ YojnaBot/
 
 ---
 
-## 📊 Key Features
+##  Key Features
 
-- ✅ Conversational profile extraction (multi-turn, decides what to ask next)
-- ✅ Eligibility reasoning — LLM evaluates "does this user actually qualify" 
-- ✅ Multilingual output — full responses in Hindi/Tamil/Telugu
-- ✅ Live Dataset Health score from Adaption's evaluation
-- ✅ User correction → live re-adaptation loop
-- ✅ Download scheme results as text file
-- ✅ 1000+ real government schemes database
+-  Conversational profile extraction (multi-turn, decides what to ask next)
+-  Eligibility reasoning — LLM evaluates "does this user actually qualify" 
+-  Multilingual output — full responses in Hindi/Tamil/Telugu
+-  Live Dataset Health score from Adaption's evaluation
+-  User correction → live re-adaptation loop
+-  Download scheme results as text file
+-  1000+ real government schemes database
