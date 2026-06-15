@@ -2,7 +2,7 @@
 
 > Built for **HackIndia AI Agents Hackathon 2026** | Adaptive Data Track
 
-YojnaBot is an AI agent that helps rural Indian citizens discover government schemes they qualify for — in their own language (Hindi, Tamil, Telugu). Powered by **Adaptive Data** by Adaption for a continuously improving, multilingual dataset.
+YojnaBot is an AI agent that helps rural Indian citizens discover government schemes they qualify for — in their own language (English, Hindi, Telugu, Bengali, Marathi). Powered by **Adaptive Data** by Adaption for a continuously improving, multilingual dataset.
 
 ---
 
@@ -19,7 +19,7 @@ Millions of eligible Indians miss out on government schemes due to language barr
 ##  Architecture
 
 ```
-User (Hindi/Tamil/Telugu)
+User (English/Hindi/Telugu/Bengali/Marathi)
         ↓
 Profile Extraction Agent (Groq/Llama-3.3-70b, multi-turn)
         ↓
@@ -54,9 +54,11 @@ This project uses **[Adaptive Data](https://adaptionlabs.ai/adaptive-data)** as 
 
 ##  Languages Supported
 
-- हिंदी (Hindi)
-- தமிழ் (Tamil)  
+- English
+- हिंदी (Hindi) 
 - తెలుగు (Telugu)
+- मराठी (Marathi)
+- বাংলা (Bengali)
 
 ---
 
